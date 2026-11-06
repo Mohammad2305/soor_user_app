@@ -9,6 +9,7 @@ import 'package:soor_user_app/core/widgets/custom_button.dart';
 import 'package:soor_user_app/core/widgets/custom_input.dart';
 import 'package:soor_user_app/core/widgets/password_input.dart';
 import 'package:soor_user_app/features/auth/presentation/ui/widgets/sign_in_appbar.dart';
+import 'package:soor_user_app/features/auth/presentation/ui/widgets/welcome_statement.dart';
 
 class SignIn extends StatelessWidget {
   const SignIn({super.key});
@@ -24,20 +25,7 @@ class SignIn extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SvgPicture.asset(AppAssets.logo),
-            Column(
-              spacing: 8.h,
-              children: [
-                Text(
-                  "welcome back!".firstCharacterUpper,
-                  style: Theme.of(context).textTheme.bodyLarge,
-                ),
-                Text(
-                  "With Sour... you’re all set, log in now."
-                      .firstCharacterUpper,
-                  style: Theme.of(context).textTheme.bodyMedium,
-                ),
-              ],
-            ),
+            WelcomeStatement(),
             Column(
               spacing: 16.h,
               children: [
