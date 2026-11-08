@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:soor_user_app/core/extensions/strings.dart';
 import '../const/assets.dart';
 import '../extensions/paddings.dart';
 import '../themes/app_text_styles.dart';
@@ -32,8 +33,8 @@ class _PasswordInputState extends State<PasswordInput> {
       children: [
         Text(
           widget.inputTitle == null
-              ? "Password"
-              : "${widget.inputTitle} Password",
+              ? "password".firstCharacterUpper
+              : "${widget.inputTitle} password".firstCharacterUpper,
           style: AppTextStyles.textFtS14FW500,
         ),
         TextFormField(
