@@ -16,7 +16,7 @@ class WelcomeStatement extends StatelessWidget {
           style: Theme.of(context).textTheme.bodyLarge,
         ),
         Text(
-          "With Sour... you’re all set, log in now."
+          "With Sour.. you’re all set, log in now."
               .firstCharacterUpper,
           style: Theme.of(context).textTheme.bodyMedium,
         ),
