@@ -40,8 +40,10 @@ class RegisterForm extends StatelessWidget {
           ),
           CheckboxListTile(
             activeColor: Color(0xff2D9EC4),
-            side: BorderSide(width: 20.w),
-            value: true,
+            checkboxScaleFactor: 2,
+            controlAffinity: ListTileControlAffinity.leading,
+            title: Text("Agree to the Terms of Service and Privacy Policy", style: Theme.of(context).textTheme.bodyMedium,),
+            value: false,
             onChanged: (val) {},
           ),
           CustomButton(
