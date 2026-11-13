@@ -25,7 +25,7 @@ class SoorUserApp extends StatelessWidget {
             Locale('ar'), // Arabic
           ],
           title: 'Soor User App',
-          initialRoute: AppRoutes.signIn,
+          initialRoute: AppRoutes.splash,
         );
       },
     );

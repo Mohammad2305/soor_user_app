@@ -9,9 +9,15 @@ import '../../features/auth/presentation/ui/pages/phone_verification.dart';
 import 'package:soor_user_app/features/auth/presentation/ui/pages/register.dart';
 import 'package:soor_user_app/features/auth/presentation/ui/pages/sign_in.dart';
 
+import '../../features/splash/presentation/screens/splash_screen.dart';
+
 class RouteNavigator{
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
+      case AppRoutes.splash:
+        return MaterialPageRoute(
+          builder: (context) => const SplashScreen(),
+        );
       case AppRoutes.signIn:
         return MaterialPageRoute(
           builder: (context) => const SignIn(),

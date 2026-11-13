@@ -1,4 +1,6 @@
 class AppRoutes{
+  // splash feature
+  static const String splash = "Splash" ;
   // auth feature
   static const String register = "Register" ;
   static const String signIn = "Sign In" ;
