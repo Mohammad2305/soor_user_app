@@ -37,7 +37,9 @@ class SignInForm extends StatelessWidget {
             ),
           ),
           CustomButton(
-            onTap: () {},
+            onTap: () {
+              Navigator.pushNamed(context, AppRoutes.layout);
+            },
             icon: Icon(Icons.arrow_back_ios_sharp, color: Colors.white,),
             padding: EdgeInsets.symmetric(vertical: 8.h),
             decoration: AppBoxDecoration.general(AppColors.mainColor, 8.r),

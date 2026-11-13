@@ -22,7 +22,7 @@ class AppThemes {
     scaffoldBackgroundColor: const Color(0xffbcb4b4),
     colorScheme: const ColorScheme.light(
       primary: Color(0xffc8c2c2),
-        onPrimary: Color(0xff000000)
+      onPrimary: Color(0xff000000)
     ),
     textTheme: TextTheme(
       bodyLarge: AppTextStyles.textFtS24FW700,

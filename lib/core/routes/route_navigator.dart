@@ -5,6 +5,7 @@ import 'package:soor_user_app/features/auth/presentation/ui/pages/forget_passwor
 import 'package:soor_user_app/features/auth/presentation/ui/pages/register.dart';
 import 'package:soor_user_app/features/auth/presentation/ui/pages/sign_in.dart';
 import 'package:soor_user_app/features/auth/presentation/ui/pages/success.dart';
+import 'package:soor_user_app/features/layout/presentation/ui/pages/layout.dart';
 import '../../features/auth/presentation/ui/pages/phone_verification.dart';
 import 'package:soor_user_app/features/auth/presentation/ui/pages/register.dart';
 import 'package:soor_user_app/features/auth/presentation/ui/pages/sign_in.dart';
@@ -41,6 +42,10 @@ class RouteNavigator{
       case AppRoutes.changePassword:
         return MaterialPageRoute(
           builder: (context) => const ChangePassword(),
+        );
+      case AppRoutes.layout:
+        return MaterialPageRoute(
+          builder: (context) => const Layout() ,
         );
       default:
         return MaterialPageRoute(

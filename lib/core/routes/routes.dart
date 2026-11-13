@@ -10,4 +10,6 @@ class AppRoutes{
   static const String changePassword = "Change Password" ;
   static const String profile = "Profile" ;
   static const String success = "Success" ;
+  // layout feature
+  static const String layout = "Layout";
 }
