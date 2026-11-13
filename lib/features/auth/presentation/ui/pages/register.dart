@@ -1,21 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-<<<<<<< HEAD
 import 'package:soor_user_app/core/extensions/main_app.dart';
 import 'package:soor_user_app/core/routes/routes.dart';
 import 'package:soor_user_app/features/auth/presentation/ui/widgets/register_form.dart';
 import '../../../../../core/const/assets.dart';
 import '../../../../../core/extensions/strings.dart';
-=======
-import 'package:soor_user_app/features/auth/presentation/ui/widgets/register_form.dart';
-import '../../../../../core/const/assets.dart';
-import '../../../../../core/const/colors.dart';
-import '../../../../../core/extensions/main_app.dart';
-import '../../../../../core/extensions/strings.dart';
-import '../../../../../core/themes/app_boxes_decoration.dart';
-import '../../../../../core/widgets/custom_button.dart';
->>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
 import '../widgets/state_ask.dart';
 
 class Register extends StatelessWidget {
@@ -37,7 +27,6 @@ class Register extends StatelessWidget {
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               RegisterForm(),
-<<<<<<< HEAD
               StateAsk(
                 ask: "do you already have an account?",
                 answer: "sign in",
@@ -48,17 +37,6 @@ class Register extends StatelessWidget {
             ],
           ),
         ).scrolling,
-=======
-              Spacer(),
-              StateAsk(
-                ask: "do you already have an account?",
-                answer: "sign in",
-                onPressed: () {},
-              ),
-            ],
-          ),
-        ),
->>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
       ),
     );
   }

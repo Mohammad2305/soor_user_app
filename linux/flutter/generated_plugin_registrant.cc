@@ -8,10 +8,6 @@
 
 #include <file_selector_linux/file_selector_plugin.h>
 #include <flutter_localization/flutter_localization_plugin.h>
-<<<<<<< HEAD
-=======
-#include <flutter_secure_storage_linux/flutter_secure_storage_linux_plugin.h>
->>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
 
 void fl_register_plugins(FlPluginRegistry* registry) {
   g_autoptr(FlPluginRegistrar) file_selector_linux_registrar =
@@ -20,10 +16,4 @@ void fl_register_plugins(FlPluginRegistry* registry) {
   g_autoptr(FlPluginRegistrar) flutter_localization_registrar =
       fl_plugin_registry_get_registrar_for_plugin(registry, "FlutterLocalizationPlugin");
   flutter_localization_plugin_register_with_registrar(flutter_localization_registrar);
-<<<<<<< HEAD
-=======
-  g_autoptr(FlPluginRegistrar) flutter_secure_storage_linux_registrar =
-      fl_plugin_registry_get_registrar_for_plugin(registry, "FlutterSecureStorageLinuxPlugin");
-  flutter_secure_storage_linux_plugin_register_with_registrar(flutter_secure_storage_linux_registrar);
->>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
 }

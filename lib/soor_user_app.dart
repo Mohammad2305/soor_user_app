@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-<<<<<<< HEAD
 import 'core/routes/route_navigator.dart';
 import 'core/routes/routes.dart';
-=======
-import 'package:soor_user_app/core/routes/routes.dart';
-import 'core/routes/route_navigator.dart';
->>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
 import 'core/themes/themes.dart';
 
 class SoorUserApp extends StatelessWidget {

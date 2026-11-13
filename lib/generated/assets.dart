@@ -2,12 +2,6 @@
 // ignore_for_file: dangling_library_doc_comments, implementation_imports
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-<<<<<<< HEAD
-=======
-import 'package:lottie/lottie.dart';
-import 'package:lottie/src/lottie_builder.dart';
-import 'package:lottie/src/composition.dart';
->>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
 
 class Assets {
   Assets._();

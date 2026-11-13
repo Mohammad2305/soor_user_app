@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-<<<<<<< HEAD
 import 'package:soor_user_app/core/extensions/strings.dart';
-=======
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:soor_user_app/core/extensions/strings.dart';
-import '../const/assets.dart';
->>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
 import '../extensions/paddings.dart';
 import '../themes/app_text_styles.dart';
 
