@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:soor_user_app/core/const/assets.dart';
+<<<<<<< HEAD
 import 'package:soor_user_app/core/extensions/main_app.dart';
 import 'package:soor_user_app/core/routes/routes.dart';
+=======
+>>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
 import 'package:soor_user_app/features/auth/presentation/ui/widgets/sign_in_appbar.dart';
 import 'package:soor_user_app/features/auth/presentation/ui/widgets/sign_in_form.dart';
 import 'package:soor_user_app/features/auth/presentation/ui/widgets/state_ask.dart';
@@ -25,6 +28,7 @@ class SignIn extends StatelessWidget {
             SvgPicture.asset(AppAssets.logo),
             WelcomeStatement(),
             SignInForm(),
+<<<<<<< HEAD
             StateAsk(
               ask: "don't have an account?",
               answer: "new account",
@@ -35,6 +39,17 @@ class SignIn extends StatelessWidget {
           ],
         ),
       ).scrolling,
+=======
+            Spacer(),
+            StateAsk(
+              ask: "don't have an account?",
+              answer: "new account",
+              onPressed: () {},
+            ),
+          ],
+        ),
+      ),
+>>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
     );
   }
 }

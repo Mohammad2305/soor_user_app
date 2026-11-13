@@ -11,8 +11,13 @@ class AppThemes {
       onPrimary: Color(0xffffffff)
     ),
     textTheme: TextTheme(
+<<<<<<< HEAD
       bodyLarge: AppTextStyles.textFtS24FW700,
       bodyMedium: AppTextStyles.textFtS14FW500,
+=======
+      bodyLarge: AppTextStyles.textFtS24FW700.copyWith(color: Colors.white),
+      bodyMedium: AppTextStyles.textFtS14FW500.copyWith(color: Colors.white),
+>>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
     ),
     inputDecorationTheme: AppInputThemes.inputField,
   );
@@ -25,8 +30,13 @@ class AppThemes {
         onPrimary: Color(0xff000000)
     ),
     textTheme: TextTheme(
+<<<<<<< HEAD
       bodyLarge: AppTextStyles.textFtS24FW700,
       bodyMedium: AppTextStyles.textFtS14FW500,
+=======
+      bodyLarge: AppTextStyles.textFtS24FW700.copyWith(color: Colors.black),
+      bodyMedium: AppTextStyles.textFtS14FW500.copyWith(color: Colors.black),
+>>>>>>> bf1058c581fa324a0c4767cc942862c38062abd3
     ),
     inputDecorationTheme: AppInputThemes.inputField,
   );
